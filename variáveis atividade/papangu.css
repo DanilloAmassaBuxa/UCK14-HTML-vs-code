@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root {
+    --cor-prime: #180606;
+    --cor-dua: #089d32;
+    --cor-tre: #075628;
+    --cor-texto: #f4eeee;
+
+    --fonte-principal: font-family: "Playwrite AR Guides", cursive;
+    --borda-radius: 10px;
+}
+
+body {
+    font-family: "Playwrite AR Guides", cursive;
+    padding: 0;
+    margin: 0;
+    color: var(--cor-texto);
+    background-image: url('ChatGPT\ Image\ 29\ de\ mai.\ de\ 2026\,\ 11_35_44.png');
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.caixa {
+    background-color: var(--cor-dua);
+    padding: 30px;
+    border-radius: var(--borda-radius);
+    text-align: center;
+    width: 300px;
+
+}
+
+.h1 {
+    font-family: "JetBrains Mono", monospace;
+    color: var(--cor-texto);
+}
+
+button {
+    background-color: var(--cor-tre);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--borda-radius);
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #773a3a;
+}
