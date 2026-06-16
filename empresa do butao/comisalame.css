@@ -1,0 +1,30 @@
+body{
+    background-color: #dfffe0;
+}
+
+.comprar{
+    background-color: blue;
+    color: white;
+}
+
+.comprar:hover{
+    transform: scale(1.2);
+}
+
+@keyframes moverBotao{
+    0%{
+        transform: translateX(0);
+        background-color: blue;
+    }
+
+    50%{
+        transform: translateX(300px);
+        background-color: green;
+    }
+
+    100%{
+        transform: translateX(0);
+        background-color: blue;
+    }
+}
+

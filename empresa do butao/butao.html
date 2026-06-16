@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beixiga Moiada</title>
+    <link rel="stylesheet" href="comisalame.css">
+</head>
+<body>
+  
+<meta charset="UTF-8">
+<title>Loja Verde</title>
+
+<style>
+
+body{
+    background-color: #dfffe0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 150px;
+}
+
+h1{
+    color: #1f6b2a;
+}
+
+.comprar{
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    animation: flutuar 2s infinite ease-in-out;
+    transition: transform 0.3s;
+}
+
+.comprar:hover{
+    transform: scale(1.1);
+}
+
+@keyframes flutuar{
+
+    0%{
+        transform: translateY(0);
+        background-color: #1e88e5;
+    }
+
+    50%{
+        transform: translateY(-10px);
+        background-color: #42a5f5;
+    }
+
+    100%{
+        transform: translateY(0);
+        background-color: #1e88e5;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<h1>Loja Verde</h1>
+
+<button class="comprar">Comprar</button>
+
+</body>
+</html>
