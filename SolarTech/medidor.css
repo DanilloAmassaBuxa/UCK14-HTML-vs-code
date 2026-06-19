@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+}
+
+.descricao{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.descricao h1{
+    color: #6a11cb;
+}
+
+.descricao p{
+    line-height: 1.8;
+}
+
+.compra{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.compra h2{
+    color: #2575fc;
+}
+
+.compra img{
+    width: 250px;
+    margin: 20px 0;
+}
+
+.preco{
+    font-size: 28px;
+    color: #6a11cb;
+    font-weight: bold;
+}
+
+.compra button{
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+.compra button:hover{
+    transform: scale(1.05);
+    background-color: #6a11cb;
+}
