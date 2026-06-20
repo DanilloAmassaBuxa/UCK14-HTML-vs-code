@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f6fb;
+}
+
+header{
+
+    background:linear-gradient(
+        90deg,
+        #6a11cb,
+        #2575fc
+    );
+
+    color:white;
+
+    text-align:center;
+
+    padding:60px;
+}
+
+header h1{
+    font-size:55px;
+}
+
+header p{
+    font-size:20px;
+    margin-top:10px;
+}
+
+.empresa{
+
+    width:85%;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    display:flex;
+
+    gap:30px;
+
+    align-items:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.empresa img{
+
+    width:350px;
+
+    border-radius:20px;
+}
+
+.texto h2{
+
+    color:#6a11cb;
+
+    margin-bottom:20px;
+}
+
+.texto p{
+
+    line-height:1.8;
+
+    color:#444;
+
+    margin-bottom:15px;
+}
+
+.cards{
+
+    width:85%;
+
+    margin:40px auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+}
+
+.card{
+
+    width:300px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+    transition:.3s;
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+}
+
+.card h3{
+
+    color:#2575fc;
+
+    margin-bottom:15px;
+}
+
+.galeria{
+
+    width:85%;
+
+    margin:50px auto;
+
+    text-align:center;
+}
+
+.galeria h2{
+
+    color:#6a11cb;
+
+    margin-bottom:30px;
+}
+
+.imagens{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+}
+
+.imagens img{
+
+    width:300px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagens img:hover{
+
+    transform:scale(1.8);
+}
+
+.final{
+
+    width:85%;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.final h2{
+
+    color:#2575fc;
+
+    margin-bottom:20px;
+}
+
+.final p{
+
+    font-size:18px;
+
+    margin:10px 0;
+}
+
+footer{
+
+    margin-top:40px;
+
+    background:#1f1f1f;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+}
+
+.bumbum{
+    text-align: center;
+}
